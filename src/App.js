@@ -13,9 +13,15 @@ const SocialMediaIcon = () => {
 	return (
 		<div style={{ width: "100%", marginTop:"40px"}}>
 			<ul style={{ listStyleType: "none", paddingLeft: "20px", textAlign: "left"}}>
-				<li style={{display: "inline-block", margin: "0 10px", boxShadow: "1px 1px 5px #ccc", borderRadius: "50%"}}><a href="/"><img src="img/facebook.png" alt="" title="" /></a></li>
-				<li style={{display: "inline-block", margin: "0 10px", boxShadow: "1px 1px 5px #ccc", borderRadius: "50%"}}><a href="/"><img src="img/twitter.png" alt="" title="" /></a></li>
-				<li style={{display: "inline-block", margin: "0 10px", boxShadow: "1px 1px 5px #ccc", borderRadius: "50%"}}><a href="/"><img src="img/google.png" alt="" title="" /></a></li>
+				<li style={{display: "inline-block", margin: "0 10px", boxShadow: "1px 1px 5px #ccc", borderRadius: "50%"}}>
+          <a href="/"><img src={`${process.env.PUBLIC_URL}/img/facebook.png`} alt="" title="" /></a>
+        </li>
+				<li style={{display: "inline-block", margin: "0 10px", boxShadow: "1px 1px 5px #ccc", borderRadius: "50%"}}>
+          <a href="/"><img src={`${process.env.PUBLIC_URL}/img/twitter.png`} alt="" title="" /></a>
+        </li>
+				<li style={{display: "inline-block", margin: "0 10px", boxShadow: "1px 1px 5px #ccc", borderRadius: "50%"}}>
+          <a href="/"><img src={`${process.env.PUBLIC_URL}/img/google.png`} alt="" title="" /></a>
+        </li>
 			</ul>
 		</div>
 	);

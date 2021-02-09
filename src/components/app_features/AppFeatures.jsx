@@ -5,7 +5,7 @@ const FeaturesList = (props) => {
         <div className="row text-center">
             {props.ImageList.map((image, idx) => (
                 <div key={idx} className="col-sm-4 col-md-4 details animated wow fadeInDown" data-wow-delay={`${idx}s`}>
-                    <img src={`img/${image}`} alt="" title="" />
+                    <img src={`${process.env.PUBLIC_URL}/img/${image}`} alt="" title="" />
                     <h1 className="text-uppercase">malesuada fames turpis.</h1>
                     <p className="text-lowercase">vel ultrices mauris libero id diam. Vivamus tellus sagittis facilisis nisi quis mollis risus quisque ultrices elit.</p>
                 </div>

@@ -8,7 +8,7 @@ const Footer = () => {
             <ul className="list-unstyled list-inline app_platform">
                 { imageList.map((image, idx) => (
                     <li className="animated wow fadeInDown" data-wow-delay={idx > 0 ? `.${idx}s` : `${idx}s`} >
-                        <a href="/"><img src={`img/${image}`} alt="" title="" /></a>
+                        <a href="/"><img src={`${process.env.PUBLIC_URL}/img/${image}`} alt="" title="" /></a>
                     </li>
                 ))}
             </ul>

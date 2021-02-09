@@ -5,7 +5,7 @@ import React from 'react';
 const Img = () => {
     return (
 		<div className="logo pull-left animated wow fadeInLeft">
-			<img className="logo-image" src="img/logo.png" alt="" title="" />
+			<img className="logo-image" src={`${process.env.PUBLIC_URL}/img/logo.png`} alt="" title="" />
 		</div>
     );
 }
@@ -32,9 +32,9 @@ const SocialMediaIcon = () => {
 	return (
 		<div className="social pull-right">
 			<ul className="list-unstyled">
-				<li className="animated wow fadeInRight" data-wow-delay=".2s"><a href="/"><img src="img/facebook.png" alt="" title="" /></a></li>
-				<li className="animated wow fadeInRight" data-wow-delay=".1s"><a href="/"><img src="img/twitter.png" alt="" title="" /></a></li>
-				<li className="animated wow fadeInRight" data-wow-delay="0s"><a href="/"><img src="img/google.png" alt="" title="" /></a></li>
+				<li className="animated wow fadeInRight" data-wow-delay=".2s"><a href="/"><img src={`${process.env.PUBLIC_URL}/img/facebook.png`} alt="" title="" /></a></li>
+				<li className="animated wow fadeInRight" data-wow-delay=".1s"><a href="/"><img src={`${process.env.PUBLIC_URL}/img/twitter.png`} alt="" title="" /></a></li>
+				<li className="animated wow fadeInRight" data-wow-delay="0s"><a href="/"><img src={`${process.env.PUBLIC_URL}/img/google.png`} alt="" title="" /></a></li>
 			</ul>
 		</div>
 	);

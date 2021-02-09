@@ -3,14 +3,14 @@ import React from 'react';
 
 
 const Image = ( { src, alt, title }) => {
-    return <img src={src} alt={alt} title={title} />;
+    return <img src={process.env.PUBLIC_URL+src} alt={alt} title={title} />;
 }
 
 const ImageDiv = () => {
     return (
         <div className="col-md-6 text-center animated wow fadeInLeft">
             <div className="iphone">
-                <Image src="img/iphone.png" alt="" title="" />
+                <Image src="/img/iphone.png" alt="" title="" />
             </div>
         </div>
     );

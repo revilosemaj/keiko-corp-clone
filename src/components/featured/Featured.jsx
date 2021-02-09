@@ -3,7 +3,7 @@ import React from 'react';
 const List = ({ listClass, dataDelay, imgSrc}) => {
     return (
         <li className={listClass} data-wow-delay = { dataDelay === 1 ? "" : `.${dataDelay}s` }>
-            <img src={imgSrc} alt="" title="" />
+            <img src={process.env.PUBLIC_URL+imgSrc} alt="" title="" />
         </li>
     );
 }
@@ -24,7 +24,7 @@ const ImageList = ( { images }) => {
 }
 
 const Featured = () => {
-    const images = ["img/google_logo.png", "img/facebook_logo.png", "img/yahoo_logo.png", "img/paypal_logo.png" ];
+    const images = ["/img/google_logo.png", "/img/facebook_logo.png", "/img/yahoo_logo.png", "/img/paypal_logo.png" ];
     
     return (
         <section className="featured_on">
