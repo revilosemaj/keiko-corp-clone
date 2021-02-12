@@ -1,5 +1,5 @@
 import './App.css';
-import Header from './components/header/Header';
+import { Header } from './components/header/header-component';
 import Hero from './components/hero/Hero';
 import Featured from './components/featured/Featured';
 import About from './components/about/About';
