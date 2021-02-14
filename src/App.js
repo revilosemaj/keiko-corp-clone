@@ -1,7 +1,7 @@
 import './App.css';
 import { Header } from './components/header/header-component';
-import Hero from './components/hero/Hero';
-import Featured from './components/featured/Featured';
+import { Hero } from './components/hero/hero-component';
+import { Featured } from './components/featured/featured-component';
 import About from './components/about/About';
 import AppFeatures from './components/app_features/AppFeatures';
 import Testimonials from './components/testimonials/Testimonials';

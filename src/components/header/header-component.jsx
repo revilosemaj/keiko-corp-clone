@@ -47,7 +47,7 @@ export const Header = ({ onClick, handleScroll }) => {
 
 	const navItems = linkAttr.map((link, idx) => {
 		return (
-			<li key={idx} className="animated wow fadeInLeft" data-wow-delay={`${idx}s`}>
+			<li key={idx} className="animated wow fadeInLeft" data-wow-delay={`.${idx}s`}>
 				<a href={link.href} onClick={link.onClick}>{link.value}</a>
 			</li>
 		)

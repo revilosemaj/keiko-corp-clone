@@ -40,9 +40,6 @@
 
 
 
-
-
-
 section, footer {
 	background: #fffcfc;
 }
@@ -63,42 +60,14 @@ a:focus{
 	max-width: 1130px;
 }
 
-/*		Hero section 		*/
-
+/* Hero section  */
 .hero{	
 	display: block;
 	position: relative;
 	width: 100%;
 	height: 560px;
-	background: url('../img/hero.jpg') no-repeat fixed center center;
+	background: url('../img/hero.jpg') no-repeat fixed center center; 
 	background-size: cover;
-}
-
-.hero .caption{
-	position: absolute;
-	max-width: 550px;
-	margin-left: 80px;
-	top: 50%;
-	transform:translate(0,-50%);
-	-webkit-transform:translate(0,-50%);
-	-moz-transform:translate(0,-50%);
-	-o-transform:translate(0,-50%);
-}
-
-.hero .caption h1{
-	color: #525252;
-	font-family: "open_bold", Helvetica, Arial, sans-serif;
-	font-size: 34px;
-	font-weight: bold;
-	word-break: break-word;
-}
-
-.hero .caption p{
-	color: #6d6c6c;
-	font-family: "open_regular", Helvetica, Arial, sans-serif;
-	font-size: 16px;
-	line-height: 30px;
-	margin: 15px 0 35px 0;
 }
 
 #slider .caption p{
@@ -223,45 +192,6 @@ a.app_link{
   font-size: 1.4em;
   font-weight: bolder;
 }
-
-
-
-
-
-
-
-
-
-
-/*		Featured on section 		*/
-
-.featured_on{
-	width: 100%;
-	padding: 25px 0;
-	background: #f3f3f3;
-}
-
-.featured_on ul{
-	margin: 0;
-}
-
-.featured_on li{
-	position: relative;
-	height: 100%;
-}
-
-.featured_on li:first-child{
-	margin-left: 0;
-}
-
-
-
-
-
-
-
-
-
 
 /*		About section 		*/
 
